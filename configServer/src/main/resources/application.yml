@@ -11,4 +11,4 @@ spring:
           uri: https://github.com/henrysalo/parcial-backend
           default-label: main
           force-pull: true
-          search-paths: config-data
+          search-paths: configData
