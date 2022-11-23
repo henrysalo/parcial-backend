@@ -3,8 +3,11 @@ server:
 
 spring:
   application:
-    name: config/server
+    name: config-server
   cloud:
     config:
       server:
-        git:
+        git: https://github.com/henrysalo/parcial-backend
+        default-label: main
+        force-pull: true
+        search-paths: config-data
